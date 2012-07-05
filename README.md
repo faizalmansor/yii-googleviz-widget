@@ -8,9 +8,8 @@ Put the cgooglevizwidget folder into the extension directory.
 The widget can now be used by adding it into the view file.
 
 <h3>Example:</h3>
-<code><pre>
-<?php 
-$this->widget('ext.cgooglevizwidget.CGoogleVizWidget',array(
+
+<?php $this->widget('ext.cgooglevizwidget.CGoogleVizWidget',array(
   'id'=>'piechart_div',
 	'type'=>'pie',
     'data'=>array(
@@ -31,6 +30,4 @@ $this->widget('ext.cgooglevizwidget.CGoogleVizWidget',array(
         'width'=>400,
         'height'=>300
     )
-)); 
-?>
-</pre></code>
+)); ?>
