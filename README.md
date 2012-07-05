@@ -2,12 +2,13 @@ yii-googleviz-widget
 ====================
 
 A widget to utilize Google Visualization charts in a yii project
-
-Installation
+<br />
+<h2>Installation</h2>
 Put the cgooglevizwidget folder into the extension directory.
 The widget can now be used by adding it into the view file.
 
-Example:
+<p>Example:</p>
+<pre><code>
 <?php $this->widget('ext.cgooglevizwidget.CGoogleVizWidget',array(
   'id'=>'piechart_div',
 	'type'=>'pie',
@@ -30,3 +31,4 @@ Example:
         'height'=>300
     )
 )); ?>
+</code></pre>
